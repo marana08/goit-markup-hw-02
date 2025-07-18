@@ -6,6 +6,7 @@
   --color-accent: #4d5ae5;
   --color-accent-hover: #404bbf;
   --color-footer-text: #f4f4fd;
+  
 }
 
 *,
@@ -294,10 +295,15 @@ ul {
   margin-bottom: 16px;
 }
 
+.logo-accent {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-footer-text);
   max-width: 264px;
 }
