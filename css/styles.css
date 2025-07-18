@@ -63,8 +63,6 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--color-accent);
 }
 
@@ -92,7 +90,6 @@ ul {
 
 .contact-link {
   font-size: 16px;
-  letter-spacing: 0.02em;
   color: var(--color-text);
   transition: color 250ms ease;
 }
@@ -287,8 +284,6 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--color-accent);
   text-decoration: none;
   display: inline-block;
@@ -303,7 +298,6 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--color-footer-text);
   max-width: 264px;
 }
