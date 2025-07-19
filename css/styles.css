@@ -29,15 +29,9 @@ ul, li{
 }
 
 .header{
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
 }
 
-.nav{
-  display: flex;
-}
 
 .logo{
   font-family: "Raleway", sans-serif;
@@ -55,18 +49,13 @@ ul, li{
 }
 
 .nav-list{
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
 }
 
 .nav-link{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   }
 
@@ -86,10 +75,7 @@ ul, li{
 
 .contacts-list{
   list-style: none;
-  display: flex;
-  gap: 40px;
   margin: 0;
-  padding: 0;
 }
 
 .contacts-link{
@@ -124,7 +110,6 @@ ul, li{
 }
 
 .hero-button{
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris-color);
   font-weight: 500;
   font-size: 16px;
@@ -134,15 +119,13 @@ ul, li{
   cursor: pointer;
 }
 
-.hero-button:hover
+.hero-button:hover,
 .hero-button:focus
 {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--ocean-color);
 }
 
 .services{
-  padding: 80px 40px;
   background: var(--white-color);
 }
 
@@ -155,15 +138,11 @@ ul, li{
 }
 
 .services-list{
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 40px;
 }
 
 .service-item{
   background: var(--cloud-color);
-  padding: 24px;
-  border-radius: 8px;
 }
 
 .service-title{
@@ -184,7 +163,6 @@ ul, li{
 
 .team{
   background: var(--cloud-color);
-  padding: 80px 40px;
 }
 
 .section-title{
@@ -198,21 +176,14 @@ ul, li{
 }
 
 .team-list{
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 40px;
   justify-items: center;
 }
 
 .team-item{
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white-color);
 }
 
-.team-photo {
-  width: 264px;
-  height: 260px;
-}
 
 .team-name{
   font-weight: 500;
@@ -232,9 +203,6 @@ ul, li{
   color: var(--slate-color);
 }
 
-.portfolio{
-  padding: 80px 40px;
-}
  
 .section-title{
   font-weight: 700;
@@ -247,21 +215,15 @@ ul, li{
 }
 
 .portfolio-list{
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 40px;
 }
 
 .portfolio-item{
   background: var(--white-color);
-  border-radius: 8px;
   overflow: hidden;
 }
 
-.portfolio-img {
-  width: 360px;
-  height: 300px;
-}
+
  
 .portfolio-name{
   font-weight: 500;
