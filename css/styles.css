@@ -24,6 +24,7 @@ ul, li{
   --ocean-color: #404BBF;
   --white-color: #FFFFFF;
   --cloud-color: #F4F4FD;
+  --second-family: "Raleway", sans-serif;
 
 }
 
@@ -116,7 +117,7 @@ ul, li{
 .hero-title{
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-color);
@@ -133,9 +134,11 @@ ul, li{
   cursor: pointer;
 }
 
-.hero-button:hover{
+.hero-button:hover
+.hero-button:focus
+{
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: var(--ocean-color);
+  background: var(--ocean-color);
 }
 
 .services{
@@ -187,7 +190,8 @@ background: var(--ocean-color);
 .section-title{
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue-color);
@@ -235,7 +239,8 @@ background: var(--ocean-color);
 .section-title{
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue-color);
@@ -276,24 +281,27 @@ background: var(--ocean-color);
 
 .footer{
   background: var(--navy-blue-color);
+
 }
 
 .footer-logo{
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-color);
+  font-family: var(--second-family);
 }
   
 .footer-logo-accent{
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud-color);
+  font-family: var(--second-family);
 }
 
 .footer-text{
