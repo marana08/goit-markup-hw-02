@@ -1,3 +1,4 @@
+/*common*/
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -25,8 +26,9 @@ ul, li{
   --white-color: #FFFFFF;
   --cloud-color: #F4F4FD;
   --second-family: "Raleway", sans-serif;
-
 }
+
+/*header*/
 
 .header{
   justify-content: space-between;
@@ -57,6 +59,7 @@ ul, li{
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue-color);
+  letter-spacing: 0.02em;
   }
 
 .nav-link:hover,
@@ -78,7 +81,7 @@ ul, li{
   margin: 0;
 }
 
-.contacts-link{
+.contact-link{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -87,7 +90,7 @@ ul, li{
 }
 
 .contact-link:hover,
-.contacts-link:focus
+.contact-link:focus
 {
   font-weight: 400;
   font-size: 16px;
@@ -95,6 +98,8 @@ ul, li{
   letter-spacing: 0.02em;
   color: var(--ocean-color);
 }
+
+/*effective solutions for your business*/
 
 .hero{
   background: var(--navy-blue-color);
@@ -124,6 +129,8 @@ ul, li{
 {
   background: var(--ocean-color);
 }
+
+/*service*/
 
 .services{
   background: var(--white-color);
@@ -160,6 +167,8 @@ ul, li{
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
+
+/*our team*/
 
 .team{
   background: var(--cloud-color);
@@ -203,7 +212,8 @@ ul, li{
   color: var(--slate-color);
 }
 
- 
+ /*our portfolio*/ 
+
 .section-title{
   font-weight: 700;
   font-size: 36px;
@@ -211,7 +221,7 @@ ul, li{
   text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue-color);
+  color: #2e2f42; 
 }
 
 .portfolio-list{
@@ -222,8 +232,6 @@ ul, li{
   background: var(--white-color);
   overflow: hidden;
 }
-
-
  
 .portfolio-name{
   font-weight: 500;
@@ -240,6 +248,8 @@ ul, li{
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
+
+/*footer*/
 
 .footer{
   background: var(--navy-blue-color);
