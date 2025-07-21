@@ -221,7 +221,7 @@ ul, li{
   text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42; 
+  color: var(--navy-blue-color); 
 }
 
 .portfolio-list{
@@ -238,7 +238,7 @@ ul, li{
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--navy-blue-color);
 }
 
 .portfolio-category{
